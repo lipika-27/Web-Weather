@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="weather">
+        <div class="input_textbox">
+            <input type="text" id="input_box" class="input_box" placeholder="Enter city name...">
+        </div>
+        <div class="weather_details">
+            <div class="location_details">
+                <div class="city" id="city">City, Country</div>
+                <div class="date" id="date">Day, dd-mm-yyyy</div>
+                <div class="timeshow">
+                    <img src="img/clock.png" alt="">
+                    <div class="time" id="time">HH:MM:SS</div>
+                </div>
+                
+            </div>
+            <div class="weather_status">
+                <div class="temp" id="temp">00&deg;C</div>
+                <div class="min_max" id="min_max">00&deg;C (min) / 00&deg;C (max)</div>
+                <div class="status" id="status">status</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
